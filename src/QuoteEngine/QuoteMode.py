@@ -8,4 +8,4 @@ class QuoteModel:
         self.author = author
 
     def __str__(self) -> str:
-        return f'{self.body} - {self.author}'
+        return f'{self.body} --- {self.author}'
